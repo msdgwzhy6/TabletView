@@ -10,7 +10,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
 
-import java.util.Map;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private TabletView tabletView;
