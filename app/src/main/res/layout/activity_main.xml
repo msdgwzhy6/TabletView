@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tabletview.MainActivity">
+
+    <com.tabletview.TuyaView
+        android:id="@+id/tuyaview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!--<com.tabletview.TabletView-->
+        <!--android:id="@+id/tabletview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btn_undo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="撤销" />
+
+        <Button
+            android:id="@+id/btn_redo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="重做" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存" />
+
+        <Button
+            android:id="@+id/btn_recover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="恢复" />
+
+
+        <Button
+            android:id="@+id/btn_paintcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="颜色" />
+
+        <Button
+            android:id="@+id/btn_paintsize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="画笔大小" />
+
+        <Button
+            android:id="@+id/btn_paintstyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="画笔类型" />
+
+        <SeekBar
+            android:id="@+id/sb_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="paintcolor" translatable="false">
+        <item>Color.RED</item>
+        <item>Color.BLUE</item>
+        <item>Color.GREEN</item>
+        <item>Color.YELLOW</item>
+        <item>Color.BLACK</item>
+        <item>Color.GRAY</item>
+        <item>Color.CYAN</item>
+    </string-array>
+
+    <string-array name="paintstyle" translatable="false">
+        <item>画笔</item>
+        <item>橡皮擦</item>
+    </string-array>
+
+</resources>
